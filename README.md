@@ -13,7 +13,7 @@ project-name/
 ├── images/            # Image Assets
 │   ├── logo.png        # Site logo
 │   ├── hero.jpg        # Hero image
-│   ├── product1.jpg    # Example product image
+│   ├── h1.png          # Headlinr image
 │   ├── ...            # Other images
 └── README.md          # Project description and instructions
 ```
