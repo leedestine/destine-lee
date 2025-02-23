@@ -1,0 +1,140 @@
+/* Article Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 70px; /* Prevent header overlap */
+}
+
+.wc-article {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wc-article h1 {
+    font-size: clamp(20px, 5vw, 28px);
+    color: #0C2340;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wc-article-meta {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.wc-article img {
+    width: 60%; /* Reduce image size */
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.wc-article .image-caption {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: -10px;
+    font-style: italic;
+}
+
+.wc-article p {
+    font-size: clamp(14px, 2vw, 16px);
+    line-height: 1.6;
+    color: #333;
+}
+
+.wc-article a {
+    color: #d32f2f; /* Highlighted link color */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wc-article .author-name {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    text-align: right;
+}
+
+/* Comment Section */
+.wc-comments {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(39, 62, 86);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wc-comments h2 {
+    font-size: 20px;
+    color: #0C2340;
+    margin-bottom: 15px;
+}
+
+.wc-comment-form textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.wc-comment-form button {
+    display: block;
+    background: #0C2340;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wc-comment {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.wc-comment-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px; /* Make it square with rounded corners */
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid white;
+}
+
+.wc-comment-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.wc-comment-author {
+    font-weight: bold;
+    margin: 0;
+    font-size: 11px;
+    color: #0C2340;
+}
+
+.wc-comment-text {
+    margin: 50px;
+    font-size: 10px;
+    color: #333;
+    margin-right: 5px;
+}
